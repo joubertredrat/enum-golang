@@ -6,3 +6,9 @@ poc using struct and enum in golang
 ```bash
 go run cmd/main.go
 ```
+
+#### Tests
+
+```bash
+go test -v ./...
+```
