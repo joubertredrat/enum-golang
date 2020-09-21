@@ -12,3 +12,10 @@ go run cmd/main.go
 ```bash
 go test -v ./...
 ```
+
+#### Coverage
+
+```bash
+go test -v ./... -coverprofile=coverage.out
+go tool cover -func=coverage.out
+```
